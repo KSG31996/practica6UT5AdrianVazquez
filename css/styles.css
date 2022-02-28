@@ -1,0 +1,111 @@
+/*** Add your styles here **/
+
+/** Estilos para los iconos de las redes sociales **/
+body{
+	background-color: #f8f8f8;
+}
+
+h2{
+	font-size: 2.8rem;
+}
+
+h2 span{
+	font-size: 2rem;
+	font-family: 'Mountains of Christmas', cursive;
+	color: #00a0e3;
+}
+
+.sociales ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+.sociales ul li {
+	position: relative;
+	display: inline-block;
+}
+
+.sociales ul li a::before{
+	font-family: 'FontAwesome';
+	display: inline-block;
+	vertical-align: top;
+	padding: 0.4rem;
+	content: 'f08e';
+	-webkit-font-smoothing: antialiased;
+	font-size: 2rem;
+	color: #00a0e3;
+}
+
+.sociales ul li a[href*="facebook.com"]::before{
+	content: '\f230';
+}
+
+.sociales ul li a[href*="twitter.com"]::before{
+	content: '\f081';
+}
+
+.sociales ul li a[href*="instagram.com"]::before{
+	content: '\f16d';
+}
+
+.sociales ul li a[href*="pinterest.com"]::before{
+	content: '\f0d2';
+}
+
+.sociales ul li a[href*="youtube.com"]::before{
+	content: '\f16a';
+}
+
+/** FIN Estilos para los iconos de las redes sociales **/
+
+
+/** BARRA DE NAVEGACION **/
+.navegacion {
+	background-color: #00a0e3;
+}
+
+/* Botón Hamburguesa de la barra del menú */
+.navbar-light .navbar-toggler{
+	background-color: #ffed00;
+}
+
+/* Letras TAEMI sobre la barra de menus */
+.navbar-light .navbar-brand, .navbar-light .navbar-bran:hover {
+	color: #ffed00;
+}
+
+/* Añadimos un borde horizontal a la barra del menú 
+ * Se trata de una imagen */
+
+.nav-principal{
+	background-image: url(../img/border_horizontal.png), url(../img/border_horizontal.png);
+	background-repeat: repeat-x;
+	background-position: 0px top, 0px bottom;
+}
+
+.nav-link{
+	color: #000000;
+	font-size: 1.4rem;
+	transition: all .5s ease-in-out;
+}
+
+.nav-link:hover{
+	background-color: #ffed00;
+	color: #00a0e3;
+}
+
+/* CAROUSEL */
+.carousel-caption h3{
+	font-family: 'Raleway', sans-serif;
+	font-size: 2rem;
+	font-weight: 900;
+	color: #ffed00;
+}
+
+/* Nuevo Sitio **/
+.nuevo-sitio p{
+	font-family: 'Raleway', sans-serif;
+	color: #000000;
+}
+
